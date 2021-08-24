@@ -1,0 +1,247 @@
+    1  # Install Flathub as a dependency, required for org.kde.Platform.
+    2  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    3  # Install Citra Nightly and Citra Canary
+    4  flatpak install https://flatpak.citra-emu.org/citra-nightly.flatpakref
+    5  flatpak install https://flatpak.citra-emu.org/citra-canary.flatpakref
+    6  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    7  sudo snap install citra-mts --edge
+    8  apt-get install sdl2
+    9  apt-get install qtbase5-dev libqt5opengl5-dev qtmultimedia5-dev
+   10   --fix-missing?
+   11  apt-get install libfdk-aac-dev
+   12  sudo apt install ffmpeg libswscale-dev libavdevice57 libavformat-dev libavcodec-dev libavdevice-dev
+   13  apt-get install libqt5multimedia5-plugins
+   14  apt-get install build-essential
+   15  apt-get install clang clang-format libc++-dev
+   16  apt-get install cmake
+   17  --recursive https://github.com/citra-emu/citra
+   18  cd citra
+   19  --recursive https://github.com/citra-emu/citra
+   20  cd citra
+   21  mkdir build
+   22  cd build
+   23  cmake ../
+   24  make
+   25  sudo make install (optional)
+   26  mkdir build
+   27  cd build
+   28  cmake ../
+   29  make
+   30  sudo make install
+   31  ls cd build
+   32  ls cd citra
+   33  whoami
+   34  hostname
+   35  man echo ls
+   36  whoami
+   37  hostname
+   38  echo --help
+   39  nano f.txt
+   40  cat f.txt
+   41  head -n 3 f.txt
+   42  nano f.txt
+   43  f.txt
+   44  nano f.txt
+   45  head -n 3 f.txt
+   46  tail -n 3 f.txt
+   47  less f.txt
+   48  less f.txt
+   49  grep war
+   50  grep orius f.txt
+   51  grep Raj f.txt
+   52  grep ar f.txt
+   53  ¬
+   54  pwd
+   55  mkdir Raj
+   56  cd Raj
+   57  pwd
+   58  cd ..
+   59  pwd
+   60  cd ¬
+   61  ls > f.txt
+   62  ls
+   63  ls sort -r
+   64  ls
+   65  sort -r
+   66  ls | sort -r | tail -n 3
+   67  rm f.txt
+   68  ls
+   69  rm -r
+   70  rm -r Raj
+   71  ls
+   72  nano &
+   73  fg %1
+   74  getdit &
+   75  jobs
+   76  gb
+   77  fg %1
+   78  getdit &
+   79  mfdir week1
+   80  mkdir week1
+   81  cd week1
+   82  /ur/bin
+   83  history > nano ex2.txt
+   84  nano ex2.txt
+   85  history > ex2.txt
+   86  ex2.txt
+   87  echo cat ex2.txt
+   88  cat ex2.txt
+   89  nano ex1.txt
+   90  /ur/bin | -r | ex1.txt
+   91  /ur/bin |sort -r| > ex1.txt
+   92  nano ex3.sh
+   93  nano ex3.sh
+   94  cat ex3.sh
+   95  nano ex3.sh
+   96  cat ex3.txt
+   97  cat ex3.sh
+   98  nano ex3.sh
+   99  cat ex3.sh
+  100  sh ex3.sh
+  101  nano ex3,sh
+  102  kill %1
+  103  nano ex3.sh
+  104  sh ex3.sh
+  105  mkdir week1
+  106  rmdir week1
+  107  ls
+  108  exit
+  109  cd /usr/bin
+  110  cd week1
+  111  cd root
+  112  cd ~
+  113  cd week1
+  114  nano week1.txt
+  115  cd /usr/bin
+  116  grep gcc > week1/ex1.txt
+  117  grep gcc > ~/week1/ex1.txt
+  118  cat week1.txt
+  119  cat ex1.txt
+  120  cd week1
+  121  ls
+  122  cat ex1.txt
+  123  nano ex1.txt
+  124  cd /usr/bin
+  125  grep gcc
+  126  cd /usr/bin
+  127  ls
+  128  grep gcc/usr/bin
+  129  grep "gcc" /usr/bin 
+  130  grep "gcc" /usr/bin* 
+  131  cd /usr/bin
+  132  grep "gcc" ./* 
+  133  grep "gcc" ./* > ~/week1/ex1.txt
+  134  grep "gcc" ./*| ~/week1/ex1.txt
+  135  cd ~
+  136  cat ex1.txt
+  137  cd week1
+  138  cat ex1.txt
+  139  cd ~/week1/ex2
+  140  cd ~/week1/ex2.txt
+  141  ls
+  142  cat ex2.txt
+  143  history>~/week1/ex2.txt
+  144  cat ex2.txt
+  145  q
+  146  exit
+  147  nano ex3.txt
+  148  cat ex3.txt
+  149  nano ex3.txt
+  150  cat ex3.txt
+  151  nano ex3.sh
+  152  nano ex3.txt
+  153  nano ex3.txt
+  154  nano ex3.txt
+  155  nano ex3.sh
+  156  cat ex3.sh
+  157  nano ex3.sh
+  158  cat ex3.sh
+  159  nano ex3.sh
+  160  ./ex3.sh
+  161  ~/week1/ex3.sh
+  162  chmod +x ex3.sh
+  163  ./ex3.sh
+  164  nano ex3.sh
+  165  sh ex3.sh
+  166  gedit ∼ /week1/main.c
+  167  cd week1
+  168  nano main.c
+  169  ls
+  170  nano ex4.c
+  171  main.c>x4.c
+  172  gcc main.c -o ex4
+  173  rm ex4.c
+  174  ls
+  175  rm x4.
+  176  ls
+  177  rm x4.c
+  178  nano main.c
+  179  gcc main.c -o ex4
+  180  ./ex4
+  181  nano main.c
+  182  grep "gcc" ./* | sort -r > ~/week1/ex1.txt
+  183  /usr/bin
+  184  grep "gcc" ./* | sort -r > ~/week1/ex1.txt
+  185  cd /usr/bin
+  186  grep "gcc" ./* | sort -r > ~/week1/ex1.txt
+  187  grep "gcc" ./* | sort -r > ~/week1/ex1.txt
+  188  grep "gcc" ./* | sort -r |  ~/week1/ex1.txt
+  189  grep "gcc" ./* | sort -r > ~/week1/ex1.txt
+  190  chmod +x grep "gcc" ./* | sort -r > ~/week1/ex1.txt
+  191  ~/week1/ex1.txt
+  192  cd ~
+  193  ex1.txt
+  194  cat ex1.txt
+  195  cd week1
+  196  cat ex1.txt
+  197  cd /usr/bin
+  198  grep "gcc" ./* | sort -r | ~/week1/ex1.txt
+  199  cd ~
+  200  cd week1
+  201  ex1.txt
+  202  cat ex1.txt
+  203  nano ex1.txt
+  204  grep "gcc" ./* | sort -r | chmod +x  ~/week1/ex1.txt
+  205  cd /usr/bin
+  206  grep "gcc" ./* | sort -r | chmod +x  ~/week1/ex1.txt
+  207  cd ~
+  208  cd week1
+  209  cat ex1.txt
+  210  nano ex1.txt
+  211  cd /usr/bin
+  212  grep "gcc" ./* > ~/week1/ex1.txt
+  213  cd ~
+  214  week1
+  215  cd week1
+  216  cat ex1.txt
+  217  nano ex1.txt
+  218  grep gcc /usr/bin | sort -r > ~/week1/ex1.txt
+  219  ls | grep gcc /usr/bin | sort -r > ~/week1/ex1.txt
+  220   grep /* gcc /usr/bin | sort -r > ~/week1/ex1.txt
+  221   grep /*gcc /usr/bin | sort -r > ~/week1/ex1.txt
+  222  cd /usr/bin
+  223  ls | grep gcc | sort -r > ~/week1/ex1.tx
+  224  cd ~
+  225  cd week1
+  226  cat ex1.txt
+  227  nano ex1.txt
+  228  cd /usr/bin
+  229  ls | grep gcc
+  230  ls | grep gcc |sort -r
+  231  ls | grep gcc |sort -r > ~/week1/ex1.txt
+  232  cd
+  233  cd week1
+  234  nano ex1.txt
+  235  cat ex1.txt
+  236  cat ex2.txt
+  237  histroy > ex2.txt
+  238  cd
+  239  histroy > week1/ex2.txt
+  240  cat ex2.txt
+  241  cat week1/ex2.txt
+  242  cd week1
+  243  ex2.txt
+  244  cat ex2.txt
+  245  nano ex2.txt
+  246  history > ex2.txt
+  

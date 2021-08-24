@@ -1,0 +1,2 @@
+root@September:~/week1# ./ex4
+Hello World!!!root@September:~/week1# 

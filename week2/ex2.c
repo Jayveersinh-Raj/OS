@@ -2,14 +2,14 @@
 #include <string.h>
 int main()
 {
-    char input[100];
+    char in[100];
     printf("Enter a String : ");
-    scanf("%s", input);
+    scanf("%s", in);
     printf("The string in reverse is: ");
     int i = 0;
-    for ( i = strlen(input); i >= 0; i--)
+    for ( i = strlen(in); i >= 0; i--)
     {
-        putchar(input[i]);
+        putchar(in[i]);
     }
     printf("\n");
     return 0;

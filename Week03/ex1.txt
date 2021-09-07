@@ -1,0 +1,12 @@
+"C:\Users\Jayveer sinh  Raj\CLionProjects\Rock,Paper,Scissor Simulator\untitled10\cmake-build-debug\untitled10.exe"
+Address of c:000000000062FE14
+Value of c:0000000000000016
+inAddress of pointer pc:6487572
+Content of pointer pc: 6487572
+
+Address of pointer pc:6487572
+Content of pointer pc:11
+
+Address of c:6487572
+
+Process finished with exit code 0

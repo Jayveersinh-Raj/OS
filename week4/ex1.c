@@ -7,8 +7,11 @@ int n=1;
  pid_t c=fork();
     if(c == 0)  // fork returns 0 to the child process so it enters "if" block
     {
-        printf("[son] pid %d from [parent] pid %d\n",getpid()-n,getpid()-n); 
-        // child exits
-        exit(0);
+        printf("Hello from son [%d]\n",getpid()-n); 
+      
+    }
+    if(c==1) //Fork returns 1 to the parent process and enters this bolck
+    {
+     printf("Hello from parent [%d]\n",getpid()-n); 
     }
 }

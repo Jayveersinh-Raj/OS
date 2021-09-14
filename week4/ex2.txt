@@ -1,0 +1,8 @@
+root@September:~/week4# gcc ex2.c                                                                                                                                                                                                          
+root@September:~/week4# ./a.out &                                                                                                                                                                                                          
+[2] 2264                                                                                                                                                                                                                                   
+root@September:~/week4# pstree 2264                                                                                                                                                                                                        
+a.out───a.out─┬─a.out─┬─a.out───a.out                                                                                                                                                                                                      
+              │       └─a.out                                                                                                                                                                                                              
+              ├─a.out───a.out                                                                                                                                                                                                              
+              └─a.out  

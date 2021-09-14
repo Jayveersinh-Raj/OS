@@ -1,11 +1,20 @@
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-int main(){
-fork();
-fork();
-fork();
-sleep(5);
-   return EXIT_SUCCESS;
-}
+root@September:~/week4# gcc ex2_5fork.c
+root@September:~/week4# ./a.out &
+[1] 2809
+root@September:~/week4# pstree 2809
+a.out─┬─a.out─┬─a.out─┬─a.out─┬─a.out───a.out
+      │       │       │       └─a.out
+      │       │       ├─a.out───a.out
+      │       │       └─a.out
+      │       ├─a.out─┬─a.out───a.out
+      │       │       └─a.out
+      │       ├─a.out───a.out
+      │       └─a.out
+      ├─a.out─┬─a.out─┬─a.out───a.out
+      │       │       └─a.out
+      │       ├─a.out───a.out
+      │       └─a.out
+      ├─a.out─┬─a.out───a.out
+      │       └─a.out
+      ├─a.out───a.out
+      └─a.out

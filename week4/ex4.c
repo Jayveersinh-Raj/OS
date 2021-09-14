@@ -6,3 +6,4 @@ printf("Enter the command: ");
 scanf(command);
 system(command);
 }
+

@@ -14,4 +14,8 @@ int n=1;
     {
      printf("Hello from parent [%d]\n",getpid()-n); 
     }
+ else{
+  printf("There is an error unfortunately");
+  exit(0);
+ }
 }

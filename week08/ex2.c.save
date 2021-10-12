@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main(){
+long size=1*1024*1024*1024; //storing 10mb by converting to bytesint *ptr; 
+int i;
+for(i=0;i<9;i++){
+ptr=malloc(size); //To assign 10 mb of space
+memset(ptr,0, size);
+free(ptr);
+}
+}

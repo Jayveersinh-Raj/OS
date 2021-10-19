@@ -1,0 +1,2 @@
+Enter the number of page frames in physical memory:
+Hits: 10/ Misses 990 --> Ratio = 0.01010

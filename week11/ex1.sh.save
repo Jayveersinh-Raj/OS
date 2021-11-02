@@ -1,1 +1,0 @@
-dd if=/dev/zero of=loopbackfile.img bs=100M count=10

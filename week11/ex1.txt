@@ -1,0 +1,19 @@
+50M	lofs.img
+/dev/loop1: [0005]:24950 (/dev/loop0)
+/dev/loop2: [2049]:1323465 (/root/week11/lofs.img (deleted))
+/dev/loop0: [2049]:1323457 (/root/week11/ex1.txt (deleted))
+/dev/loop3: [2049]:1323475 (/root/week11/lofs.img)
+Discarding device blocks:  1024/51200           done                            
+Creating filesystem with 51200 1k blocks and 12824 inodes
+Filesystem UUID: 12c06033-2bda-4885-86ce-b72a0536f68a
+Superblock backups stored on blocks: 
+	8193, 24577, 40961
+
+Allocating group tables: 0/7   done                            
+Writing inode tables: 0/7   done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: 0/7   done
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/loop1      3.9M   53K  3.5M   2% /lofsdisk
+/dev/loop0 on /lofsdisk type ext4 (rw,relatime)

@@ -1,59 +1,50 @@
-value 0, code [28, 1c], type 1
-value 1, code [30, 1e], type 1
-value 0, code [30, 1e], type 1
-value 1, code [30, 1e], type 1
-value 0, code [30, 1e], type 1
-value 1, code [14, e], type 1
-value 0, code [14, e], type 1
-value 1, code [14, e], type 1
-value 0, code [14, e], type 1
-value 1, code [30, 1e], type 1
-value 0, code [30, 1e], type 1
-value 1, code [14, e], type 1
-value 0, code [14, e], type 1
-value 1, code [36, 24], type 1
-value 0, code [36, 24], type 1
-value 1, code [30, 1e], type 1
-value 0, code [30, 1e], type 1
-value 1, code [21, 15], type 1
-value 0, code [21, 15], type 1
-value 1, code [47, 2f], type 1
-value 0, code [47, 2f], type 1
-value 1, code [18, 12], type 1
-value 0, code [18, 12], type 1
-value 1, code [18, 12], type 1
-value 0, code [18, 12], type 1
-value 1, code [18, 12], type 1
-value 0, code [18, 12], type 1
-value 1, code [14, e], type 1
-value 0, code [14, e], type 1
-value 1, code [19, 13], type 1
-value 0, code [19, 13], type 1
-value 1, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 2, code [19, 13], type 1
-value 0, code [19, 13], type 1
-value 1, code [28, 1c], type 1
-value 0, code [28, 1c], type 1
-value 1, code [29, 1d], type 1
-value 1, code [46, 2e], type 1
+PRESSED: value 0, code [28, 1c], type 1
+PRESSED: value 1, code [30, 1e], type 1
+PRESSED: value 0, code [30, 1e], type 1
+PRESSED: value 1, code [30, 1e], type 1
+PRESSED: value 0, code [30, 1e], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 0, code [28, 1c], type 1
+PRESSED: value 1, code [30, 1e], type 1
+PRESSED: value 0, code [30, 1e], type 1
+PRESSED: value 1, code [30, 1e], type 1
+PRESSED: value 0, code [30, 1e], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 0, code [28, 1c], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 2, code [19, 13], type 1
+PRESSED: value 0, code [28, 1c], type 1
+PRESSED: value 1, code [30, 1e], type 1
+PRESSED: value 0, code [30, 1e], type 1
+PRESSED: value 1, code [30, 1e], type 1
+PRESSED: value 0, code [30, 1e], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1
+PRESSED: value 1, code [14, e], type 1
+PRESSED: value 0, code [14, e], type 1

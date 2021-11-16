@@ -1,0 +1,13 @@
+1. Avoidance: A tactic for avoiding or avoiding becoming stuck in a standstill. The algorithm used was Banker's Algorithm.
+
+2. Prevent the stalemate by removing any of the following four conditions:
+
+Mutual exclusion a. Hold and Wait b. No preemption c. Circular wait d. No preemption
+
+3. Recovery: This is accomplished by halting the process and reserving resources.
+
+The three fundamental techniques may be used to illustrate this in detail:
+
+a.Inform the system operator and allow him or her to intervene manually. b.End one or more processes that are stuck in a stalemate.
+
+c. Make use of resources before they are depleted.
